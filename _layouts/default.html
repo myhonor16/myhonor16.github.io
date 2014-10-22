@@ -1,20 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  {% include head.html %}
+		<title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+		<meta name="description" content="{{ site.description }}" />
 
-  <body>
+		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
-    {% include header.html %}
+		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+		<!--[if lt IE 9]><script src="{{ "/bower_components/html5shiv/dist/html5shiv-printshiv.min.js" | prepend: site.baseurl }}"></script><![endif]-->
+	<body>
+		<!--[if lt IE 8]><p style="margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
 
-    {% include footer.html %}
+		<header class="l-header header">
+			<nav class="nav">
+				<a class="nav--link" href="{{ site.baseurl }}/">Home</a>
+				{% for page in site.pages %}
+					{% if page.title %}
+						<a class="nav--link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+					{% endif %}
+				{% endfor %}
+			</nav>
+			<h1 class="header--title">myhonor16<wbr />.github.io</h1>
+			<div class="header--social">
+				<a class="header--social--link" href="https://twitter.com/myhonor16">
+					<img class="header--social--link--icon header--social--link--icon__twitter" title="Twitter" src="{{ "/img/social19.png" | prepend: site.baseurl }}" />
+				</a>
+				<a class="header--social--link" href="https://github.com/myhonor16">
+					<img class="header--social--link--icon" title="GitHub" src="{{ "/img/github17.png" | prepend: site.baseurl }}" />
+				</a>
+		</header>
 
-  </body>
+		<main class="l-content">
+			{{ content }}
+		</main>
 
+		<footer class="l-footer">
+			This document/webpage is licensed under a <a class="l-footer--link" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless stated otherwise.
+		</footer>
+
+	</body>
 </html>

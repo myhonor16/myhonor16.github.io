@@ -3,21 +3,20 @@ layout: default
 ---
 
 <div class="home">
+	<p class="home--subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-  <h1 class="page-heading">Posts</h1>
+	<!--<h1 class="home--title header--title">Posts</h1>-->
+	<ul class="home--list">
+		{% for post in site.posts %}
+		<li class="home--list--post">
+			<div>
+				<a class="home--list--post--title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</div>
+			<div class="home--list--post--meta serif">{{ post.date | date: "%Y/%m/%d" }}</div>
+			</li>
+		{% endfor %}
+	</ul>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
 
 </div>
