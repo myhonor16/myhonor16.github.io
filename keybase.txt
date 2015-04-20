@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/samuelchampagne
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://samuelchampagne.com
+  * I am samuelchampagne (https://keybase.io/samuelchampagne) on keybase.
+  * I have a public key with fingerprint F81D 602F EA5B 7FD4 AE89  78FA D556 03F4 F961 5A4F
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "f81d602fea5b7fd4ae8978fad55603f4f9615a4f",
+            "host": "keybase.io",
+            "key_id": "d55603f4f9615a4f",
+            "uid": "db7c11bcbf6abc7e2318f5ea1c782f00",
+            "username": "samuelchampagne"
+        },
+        "service": {
+            "hostname": "samuelchampagne.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412102718,
+    "expire_in": 157680000,
+    "prev": "91fc990bb6c0ada0ff43784c3ea238db1f626086ff0341c835b0c6e5423b50db",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.5
+Comment: https://keybase.io/crypto
+
+yMHmAnicbZFdSBRRFMfX3dKS0vChF81oAhFdt5mdz90HKTDBLaKgpEhc7r1z7zrk
+zoz7qWnQB2SBibhZoEQaigQZGrUZRYqKstgHkmEvJhGaRGVlDyqZzfTx5n253HN+
+//85556RrTZLalJjf8nQvZZ0mDQ+uBa2HM1bKayloCbXUO5a6hT+cxFF9eGAHlDU
+EOWmiMTIAu0kGPBQJDIHsOQSJQJknhdolnDEJTA84Ahlpyq0oKkwbCAIYoeiGTHj
+4VVkI7oOH/6bgCJiGIggEQBEInayjER4DBgkSk5C0yYYxAEV+LFBB4E/jCtRBfDr
+wKdi6oydMpIRBWGzdbOD9UEH0vyGkx7QQhrSKg2gIhTS3aY+VKObgiiG3n9WXqio
+svELhiCCA0FFUyk3Y5AopJjeDMc4GdopMpKdwtW6EsBexSR4UZBo45hlcMSwdDEE
+uVw0hAKigQxoQjhWlDjEYuBkJRkyRHAKtCQQQrMcgySWhzQSMM85WcjTMqTM4apU
+jXKzRpvAZ46l+FQQCgeMyYcGyzZYklItyRut5h4tqZu3/d+udTxlNRPKS/7uzowd
+z7pWdk3sXCpIn9x3ZHg4OJY82vZk7mls8Dg/m91c337+8lTx6wv24gV5Vt/TG26y
+JTJ6Jit17VhDUSPOKU/p8R3afjGBPy1dHU3kd90tfaWNlQ44zl2L3alCKSXLxY6o
+6vrRXpb5pfyd9ev7jgfWAc/Zoum8hRP+/r3VrVVbEvN3pzvbHl9XLBh2B7tyTh+M
+9a7NFKz+bK/b/+3AlZP384s2Tb105F/yNMVbdo+P3JiLVP+yPYoLzxsWs0c+9lk9
+tlsTBSzf8dlDJftQrtf3Ng22fp+fuM3P1i3nliy+eTh1M8r1aWmxaLzwRXN91uEP
+WTPD8d96gSDB
+=9onB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/samuelchampagne
+
+==================================================================
