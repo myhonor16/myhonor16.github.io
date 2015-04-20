@@ -2,10 +2,10 @@
 timezone: America/New_York
 
 # Site settings
-title: myhonor16.github.io
-description: test
+title: samuelchampagne.com
+description: "A male human of 19 earthly rotations // Frontend Web Developer"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://myhonor16.github.io" # the base hostname & protocol for your site
+url: "http://samuelchampagne.com" # the base hostname & protocol for your site
 twitter_username: myhonor16
 github_username:  myhonor16
 

@@ -1,4 +1,4 @@
-.header--title {
+.header__title {
 	text-align: center;
 	margin: 0;
 	padding: 0.6em 0.2em 0.4em;
@@ -6,22 +6,22 @@
 		padding: 0.6em 1em 0.4em;
 	}
 }
-.header--title--link {
+.header__title__link {
 	text-decoration: none;
 }
-.header--social {
+.header__social {
 	text-align: center;
 	font-size: 2em;
 	padding: 0.6em 1em 1em;
 }
-.header--social--link {
+.header__social__link {
 	display: inline-block;
 }
-.header--social--link--icon {
+.header__social__link__icon {
 	width: 1.25em;
 	vertical-align: -20%;
 }
-.header--social--link--icon__twitter {
+.header__social__link__icon--twitter {
 	font-size: 0.84em;
 	vertical-align: -18%;
 }
@@ -31,38 +31,73 @@
 	padding: 1em;
 	word-spacing: 0.6em;
 }
-.nav--link {
+.nav__link {
 	font-size: 1.1em;
 	padding: 0.5em 0.5em 0.4em;
 	display: inline-block;
 	text-decoration: none;
 }
 
-.post--content p {
+.post__content p {
 	text-align: justify;
 }
 
-.home--subscribe {
+.home__subscribe {
 	text-align: center;
 }
-.home--list {
+.home__list {
 	max-width: 40em;
 	margin: 0 auto;
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
 }
-.home--list--post {
+.home__list__post {
 	border-bottom: #aaa 1px solid;
 	padding: 1em 0;
 }
-.home--list .home--list--post:last-of-type {
+.home__list .home__list__post:last-of-type {
 	border-bottom: none;
 }
-.home--list--post--title {
+.home__list__post__title {
 	font-size: 1.8em;
 	text-decoration: none;
 	color: #57a6c6;
 }
 
-
+.portfolio {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0.5em;
+}
+.portfolio__item {
+	padding: 0.6em 0;
+	display: block;
+	text-align: left;
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+.portfolio__item__left {
+	@media only screen and (min-width: 40em) {
+		float: left;
+		width: 30%;
+	}
+}
+.portfolio__item__right {
+	@media only screen and (min-width: 40em) {
+		h4 {
+			padding: 0 0.35em;
+		}
+		p {
+			padding: 0 1.1em;
+		}
+		float: right;
+		width: 70%;
+	}
+}
+.portfolio__item__left__img {
+	width: 100%;
+}

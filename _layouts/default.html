@@ -18,20 +18,21 @@
 
 		<header class="l-header header">
 			<nav class="nav">
-				<a class="nav--link" href="{{ site.baseurl }}/">Home</a>
+				<a class="nav__link" href="{{ site.baseurl }}/">Home</a>
 				{% for page in site.pages %}
 					{% if page.title %}
-						<a class="nav--link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+						<a class="nav__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 					{% endif %}
 				{% endfor %}
 			</nav>
-			<h1 class="header--title">myhonor16<wbr />.github.io</h1>
-			<div class="header--social">
-				<a class="header--social--link" href="https://twitter.com/myhonor16">
-					<img class="header--social--link--icon header--social--link--icon__twitter" title="Twitter" src="{{ "/img/social19.png" | prepend: site.baseurl }}" />
+			<p class="header__pretitle">The blog of</p>
+			<h1 class="header__title">myhonor16<wbr />.github.io</h1>
+			<div class="header__social">
+				<a class="header__social__link" href="https://twitter.com/myhonor16">
+					<img class="header__social__link__icon header__social__link__icon--twitter" title="Twitter" src="{{ "/img/social19.png" | prepend: site.baseurl }}" />
 				</a>
-				<a class="header--social--link" href="https://github.com/myhonor16">
-					<img class="header--social--link--icon" title="GitHub" src="{{ "/img/github17.png" | prepend: site.baseurl }}" />
+				<a class="header__social__link" href="https://github.com/myhonor16">
+					<img class="header__social__link__icon" title="GitHub" src="{{ "/img/github17.png" | prepend: site.baseurl }}" />
 				</a>
 		</header>
 
@@ -40,7 +41,7 @@
 		</main>
 
 		<footer class="l-footer">
-			This document/webpage is licensed under a <a class="l-footer--link" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless stated otherwise.
+			This document/webpage is licensed under a <a class="l-footer__link" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless stated otherwise.
 		</footer>
 
 	</body>

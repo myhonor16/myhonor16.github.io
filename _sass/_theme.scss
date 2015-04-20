@@ -2,11 +2,11 @@
 	background-image: url('/img/background-texture.png');
 	background-repeat: repeat;
 }
-.l-header .header--title {
+.l-header .header__title {
 	color: #fff;
 }
 
-.nav--link {
+.nav__link {
 	background-color: #696969;
 	background-color: rgba(0, 0, 0, 0.4);
 	/*color: #57a6c6;*/
@@ -18,7 +18,7 @@
 	color: #aaa;
 	font-size: 0.8em;
 }
-.l-footer--link {
+.l-footer__link {
 	color: #aaa;
 }
 
